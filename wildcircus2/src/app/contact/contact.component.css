@@ -1,0 +1,42 @@
+.page {
+    background-image: url('../../assets/photos/astres.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 0%;
+}
+
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 20%;
+    position: relative;
+}
+
+
+.item2 {
+    width: 50%;
+    height: 40%;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-top: -5%;
+    margin-bottom: 3%;
+}
+
+.imgmini {
+    width: 10%;
+    height: 10%;
+    margin-left: 45%;
+}
+
+.textitem {
+    text-align: center;
+    color: white;
+}
