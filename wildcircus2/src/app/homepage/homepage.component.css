@@ -1,69 +1,81 @@
 video {
     margin-left: 25%;
-    margin-top: 0.5%;
+    margin-top: 2%;
     width: 50%;
     justify-content: center;
 }
 
-    /* CSS for all the cards */
-    .list {
-        margin-left: 2%;
-        margin-top: -40%;
-        margin-bottom: 8%;
-        width: 25%;
-        background-color: pink;
-    }
-    .listtitle {
-        margin-bottom: 20%;
-        margin-top: 10%;
-    }
-    .product1 {
-        margin-left: 5%;
-        transform: rotate(5deg);
-    }
-    .product2 {
-        transform: rotate(-5deg);
-    }
-    .product3 {
-        transform: rotate(5deg);
-    }
-    .product4 {
-        transform: rotate(-5deg);
-    }
-    .offer1 {
-        margin-left: 5%;
-        margin-top: 5%;
-        transform: rotate(-5deg);
-    }
-    .offer2 {
-        margin-top: 5%;
-        transform: rotate(5deg);
-    }
-    .offer3 {
-        margin-top: 5%;
-        transform: rotate(-5deg);
-    }
-    .offer4 {
-        margin-top: 5%;
-        transform: rotate(5deg);
-    }
-    li {
-        font-size: 200%;
-        text-decoration: none;
-        list-style: none;
-        margin-bottom: 10%;
-    }
-    .card {
-        background-color: grey;
-        width: 20%;
-    }
-    .history {
-        margin-left: 10%;
-        width: 80%;
-        margin-bottom: 10%;
-        margin-top: 5%;
-        font-size: 150%;
-    }
+    /* CSS for all the round cards */
+.list {
+    margin-left: 2%;
+    margin-top: -40%;
+    margin-bottom: 8%;
+    width: 25%;
+    background-color: pink;
+}
+
+.listtitle {
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+.product1 {
+    margin-left: 5%;
+    transform: rotate(5deg);
+}
+
+.product2 {
+    transform: rotate(-5deg);
+}
+
+.product3 {
+    transform: rotate(5deg);
+}
+
+.product4 {
+    transform: rotate(-5deg);
+}
+
+.offer1 {
+    margin-left: 5%;
+    margin-top: 5%;
+    transform: rotate(-5deg);
+}
+
+.offer2 {
+    margin-top: 5%;
+    transform: rotate(5deg);
+}
+
+.offer3 {
+    margin-top: 5%;
+    transform: rotate(-5deg);
+}
+
+.offer4 {
+    margin-top: 5%;
+    transform: rotate(5deg);
+}
+
+li {
+    font-size: 200%;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10%;
+}
+
+.card {
+    background-color: grey;
+    width: 20%;
+}
+
+.history {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-size: 150%;
+}
 
 .bandeau {
     background-color: white;
@@ -102,11 +114,11 @@ video {
     background-color: #FFFFFF;
     opacity: 0.8;
     overflow: hidden;
-    width: 80%;
+    width: 85%;
     height: 100%;
     transform: scale(0);
     transition: .3s ease;
-    border-radius: 20%;
+    border-radius: 100%;
 }
 
 /* When you mouse over the container, the overlay text will "zoom" in display */
@@ -177,21 +189,8 @@ h1 {
     margin-left: 40%;
 }
 
-h5 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
-}
 
-.card-text {
-    font-size: 1em;
-    text-align: center;
-}
-
-.rounded-circle {
-    width: 180px;
-    height: 180px;
-}
+/*billets*/
 
 .allproducts {
     margin-left: 10%;
@@ -210,4 +209,23 @@ h5 {
     margin-left:23%;
     margin-top:3%;
     width:250px;
+}
+
+.card-text {
+    font-size: 1em;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.page {
+    background-image: url('../../assets/photos/astres.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 0%;
 }
