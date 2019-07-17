@@ -1,0 +1,231 @@
+video {
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 50%;
+    justify-content: center;
+}
+
+    /* CSS for all the round cards */
+.list {
+    margin-left: 2%;
+    margin-top: -40%;
+    margin-bottom: 8%;
+    width: 25%;
+    background-color: pink;
+}
+
+.listtitle {
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+.product1 {
+    margin-left: 5%;
+    transform: rotate(5deg);
+}
+
+.product2 {
+    transform: rotate(-5deg);
+}
+
+.product3 {
+    transform: rotate(5deg);
+}
+
+.product4 {
+    transform: rotate(-5deg);
+}
+
+.offer1 {
+    margin-left: 5%;
+    margin-top: 5%;
+    transform: rotate(-5deg);
+}
+
+.offer2 {
+    margin-top: 5%;
+    transform: rotate(5deg);
+}
+
+.offer3 {
+    margin-top: 5%;
+    transform: rotate(-5deg);
+}
+
+.offer4 {
+    margin-top: 5%;
+    transform: rotate(5deg);
+}
+
+li {
+    font-size: 200%;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10%;
+}
+
+.card {
+    background-color: grey;
+    width: 20%;
+}
+
+.history {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-size: 150%;
+}
+
+.bandeau {
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.rounded-circle {
+    width: 180px;
+    height: 180px;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+    right: 0;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    overflow: hidden;
+    width: 85%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+    border-radius: 100%;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+
+.container:hover .overlay {
+    transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-img-top:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+.bandeautop {
+    width: 100%;
+    padding: 1em;
+    background-color: #E9C4C6;
+    text-align: center;
+    color: white;
+}
+
+.card-body {
+    background-color: white;
+}
+
+h1 {
+    background-color: #E9C4C6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 20%;
+    height: 5%;
+    margin-left: 40%;
+}
+
+
+/*billets*/
+
+.allproducts {
+    margin-left: 10%;
+}
+
+.pictures{
+    margin-top: 5%;
+}
+
+.billets{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.btn{
+    margin-left:23%;
+    margin-top:3%;
+    width:250px;
+}
+
+.card-text {
+    font-size: 1em;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.page {
+    background-image: url('../../assets/photos/astres.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 0%;
+}
